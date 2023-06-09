@@ -24,28 +24,26 @@ SONG_DOWNLOAD_DURATION = int(
 
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001916455474"))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝗞𝗛𝗨𝗦𝗛𝗜𓆩🇽𓆪𝗠𝗨𝗦𝗜𝗖")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Ayush𓆩🇽𓆪Music")
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "5742444542").split())
+    map(int, getenv("OWNER_ID", "6119091739").split())
 )
 
-HEROKU_API_KEY = getenv("HEROKU_API_KEY")
-
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
+HEROKU_API_KEY = getenv("KOYEB_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/WCGKING/BRANDED-KHUSHI-OP-MUSIC",
+    "https://github.com/Ayushdeveloper001",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/BRANDED_LINK")
+    "SUPPORT_CHANNEL", "https://t.me/+LXnr2T8cgSI5YWZl")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/BRANDRD_21")
+    "SUPPORT_GROUP", "https://t.me/+LXnr2T8cgSI5YWZl")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 
@@ -103,11 +101,11 @@ clean = {}
 
 autoclean = []
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/ebf34649780915d5951fe.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://i.ibb.co/6HvFNjQ/Screenshot-2023-05-30-22-56-10-87-983258905b15eb89fe3914b2d06af51e.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/b5a457725d59cc7765dde.jpg",
+    "https://i.ibb.co/6HvFNjQ/Screenshot-2023-05-30-22-56-10-87-983258905b15eb89fe3914b2d06af51e.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
