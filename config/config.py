@@ -12,7 +12,7 @@ API_HASH = getenv("API_HASH")
 
 BOT_TOKEN = getenv("BOT_TOKEN")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://AsadAli:AsadAli@cluster0.3ejv7.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb://ulhhrcytpq4tsp7mvzee:G3k7RPHoItnGdI1BKbL@bs0riafe7x2e3bdsndfy-mongodb.services.clever-cloud.com:2614/bs0riafe7x2e3bdsndfy")
 
 DURATION_LIMIT_MIN = int(
     getenv("DURATION_LIMIT", "90000000")
@@ -59,7 +59,7 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "5"))
 
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "6"))
 
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/WCGKING/BRANDED-KHUSHI-OP-MUSIC")
+GITHUB_REPO = getenv("GITHUB_REPO", "Https://github.com/ayushdeveloper001")
 
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "bcfe26b0ebc3428882a0b5fb3e872473")
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "907c6a054c214005aeae1fd752273cc4")
